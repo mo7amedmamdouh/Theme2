@@ -1,0 +1,84 @@
+/* Active Link */
+
+.navbar {
+    min-height: 70px;
+    margin-bottom: 0px;
+    border-radius: 0;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 30px;
+    line-height: 40px;
+}
+.navbar-toggle {
+    margin-top: 19px;
+}
+/* Nav Bar Link  color */
+
+.navbar-inverse .navbar-nav > li > a , .navbar-inverse .navbar-brand 
+{
+    color: #bbb;
+}
+.navbar-nav > li > a{
+    
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 16px;
+
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img{
+    width: 100%
+}
+/* Drop DownMenu */ 
+.dropdown-menu
+{
+    background-color: #333;
+    min-width: 200px;
+}
+.navbar-right .dropdown-menu{
+        left: 0 ;
+    right: auto ;
+
+    
+    
+}
+.dropdown-menu > li > a{
+    color: #fff;
+    padding: 6px 20px;
+    -webkit-transition: padding .3s ease;
+    -moz-transition: padding .3s ease;
+    -o-transition: padding .3s ease;
+    transition: padding .3s ease;
+
+}
+
+.dropdown-menu > li > a:hover ,
+.dropdown-menu > li > a:focus
+
+{
+    color: #fff;
+    padding-left: 30px;
+}
+
+.dropdown-menu .divider {
+    
+    background-color: #871818
+    
+}
+.carousel-caption{
+    bottom: 110px;
+    background-color: rgba(3,3,3,.1);
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.carousel-indicators li {
+    height: 15px;
+    width: 15px;
+    border: 1px solid #eee;
+}
+.carousel-indicators .active {
+    height:  17px;
+    width: 17px;
+}

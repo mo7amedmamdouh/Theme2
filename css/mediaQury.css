@@ -1,0 +1,133 @@
+/* Start Mopile Media */
+@media (max-width:767px)
+    {
+.navbar-nav > li > a {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}        
+
+.carousel{
+    display: none;
+}
+
+ .statistics h2 {
+     font-size:20px;
+     margin-bottom: 14px;
+         margin-top: 0px;
+
+ }
+.sz
+        {
+            font-size: 50px;
+        }
+.statistics .stat p{
+    font-size: 26px
+}
+        
+.subscribe .form-control {
+            margin-bottom: 10px;
+        width: 250px;
+    margin-left: 15px
+
+    
+
+}
+.ourProgress .progress {
+    height: 24px;
+}
+.ourProgress .progress-bar{
+        line-height: 24px;
+    font-size: 13px;
+
+}
+.subscribe button{
+    width: 200px;
+
+ }
+.row .planes:hover{
+    
+        -webkit-transform:scale(1.01,1.01);
+    -moz-transform:scale(1.01,1.01);
+    -o-transform:scale(1.01,1.01);
+    transform:scale(1.01,1.01);
+
+}
+
+.ourClients ul li  {
+    margin-bottom: 14px;
+}
+
+.footer ul.coloumnList li{
+    width: 34.333333%;
+}
+  
+.footer .socialMedia {
+        margin: 20px 14px 20px 22px;
+
+}
+.footer .socialMedia .img-circle{
+    margin-bottom: 10px;
+}
+        
+.navbar-fixed-top .navbar-collapse,
+.navbar-fixed-bottom .navbar-collapse
+        {
+            max-height: none;
+        }
+        
+.footer .copyRight  {
+    font-size:10px;
+}
+.footer .copyRight span{
+    font-size: 10px;
+}
+.footer .img-thumbnail {
+    background-color: #111111;
+}
+.footCenter{
+    text-align: center;
+}
+    }
+
+/* End Mopile Media */
+
+/* -------------------------------------------------------------------------------------- */
+
+
+/* Start Small Media */
+
+@media (min-width:768px) and (max-width:991)
+    {
+
+    }
+
+/* End Small Media */
+
+/* -------------------------------------------------------------------------------------- */
+
+
+/* Start medium Media */
+
+@media (min-width:992px) and (max-width:1199)
+    {
+        
+        
+    }
+
+/* End medium Media */
+
+/* -------------------------------------------------------------------------------------- */
+
+/* Start large Media */
+
+@media (min-width:1200px) 
+    {
+        
+        
+    }
+
+
+/* End large Media */
+
+/* -------------------------------------------------------------------------------------- */
+
